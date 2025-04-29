@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1> Welcome to the JS Playground 🎮</h1>
+
+  <button id="clickMeBtn">Click Me!</button>
+  <p id="clickMessage"></p>
+
+  <div id="hoverBox">Hover over me!</div>
+
+  <input type="text" id="keyInput" placeholder="Type something..." />
+
+  <button id="secretBtn">Secret Button (Double-click me)</button>
+  <p id="secretMessage"></p>
+
+  <!-- Interactive Elements -->
+  <button id="colorChangerBtn">Change My Color</button>
+
+  <div class="tabs">
+    <button class="tab" data-tab="1">Tab 1</button>
+    <button class="tab" data-tab="2">Tab 2</button>
+    <button class="tab" data-tab="3">Tab 3</button>
+    <div class="tab-content" id="tab1">Content for Tab 1</div>
+    <div class="tab-content" id="tab2">Content for Tab 2</div>
+    <div class="tab-content" id="tab3">Content for Tab 3</div>
+  </div>
+
+  <!-- Form -->
+  <form id="userForm">
+    <input type="text" id="name" placeholder="Name (required)" required>
+    <input type="email" id="email" placeholder="Email (required)" required>
+    <input type="password" id="password" placeholder="Password (min 8 chars)" required>
+    <button type="submit">Submit</button>
+    <p id="formFeedback"></p>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>

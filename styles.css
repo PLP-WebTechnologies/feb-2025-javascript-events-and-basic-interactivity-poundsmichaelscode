@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f0f8ff;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+  }
+  
+  #hoverBox {
+    background-color: lightgray;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px 0;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
